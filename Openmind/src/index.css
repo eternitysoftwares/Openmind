@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+}
+
+.gradient-bg {
+  background: radial-gradient(circle at center, rgba(0, 0, 0, 0.7) 0%, rgba(0, 10, 20, 0.95) 100%);
+}
+
+.glass-bg {
+  background: rgba(23, 25, 35, 0.3);
+  backdrop-filter: blur(10px);
+}
+
+.glass-input {
+  background: rgba(23, 25, 35, 0.5);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-button {
+  background: rgba(23, 25, 35, 0.3);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-button:hover {
+  background: rgba(23, 25, 35, 0.4);
+}
